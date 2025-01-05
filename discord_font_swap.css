@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'panicsnow-forcecaps';
+    src: url('https://raw.githubusercontent.com/MrSnowmanASOY/PanicSnow/main/panic-snow.ttf');
+}
+@font-face {
+    font-family: 'panicsnow-multicase';
+    src: url('https://raw.githubusercontent.com/MrSnowmanASOY/PanicSnow/main/panic-snow-cases.ttf');
+}
+
+:root {
+    --font-primary: panicsnow-multicase;
+    --font-display: panicsnow-forcecaps;
+    --font-headline: panicsnow-forcecaps;
+    --font-code: panicsnow-multicase;
+    --font-clan-body: panicsnow-forcecaps;
+    --font-clan-signature: panicsnow-forcecaps;
+    --font-display-marketing: panicsnow-forcecaps;
+}
